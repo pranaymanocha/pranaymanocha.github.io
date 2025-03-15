@@ -1,0 +1,2122 @@
+{
+  "nodes": [
+    {
+      "id": "95bc6a5e-cfcb-4dce-8234-d5f3262e5c90",
+      "data": {
+        "content": "Hi, am I speaking with NAME?\n",
+        "number": 7,
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question (yes, no, who is this, who is speaking etc.)",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "b670edfd-6df2-49d7-8863-8986dfeae69a",
+      "data": {
+        "content": "Hi, this is Ava with the Talent Acquisition Team at Boston Children's Hospital. You recently applied for a role within our Research department , and I’d love to discuss your interest in the position. Do you have a few minutes to chat now? ",
+        "number": 8,
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 400,
+        "y": 250
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 400,
+        "y": 250
+      }
+    },
+    {
+      "id": "cb1d46ae-c412-44d3-9cef-d885aafd32e1",
+      "data": {
+        "content": "Great! Before we continue, I’d like to let you know that I’m an AI recruiter representing Boston Children’s Hospital. I’m here to assist with the initial screening process. Would you be available now to discuss your application? If not, I can pass along your information for a BCH recruiter to schedule a call with you. Shall we proceed?",
+        "number": 9,
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 700,
+        "y": 400
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 700,
+        "y": 400
+      }
+    },
+    {
+      "id": "2e41ded1-dec8-4778-ae57-c3d6cddf6976",
+      "data": {
+        "content": "Great! I’ll ask you a few questions to gather information about your application. Your responses will be recorded and shared with a recruiter, who will follow up with you if you are a potential fit for the role. Does that sound good? ",
+        "number": 10,
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 1000,
+        "y": 550
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1000,
+        "y": 550
+      }
+    },
+    {
+      "id": "9c37ebfc-43ac-404d-a0fb-e0a02cb2323b",
+      "data": {
+        "content": "Alright, let’s move on to discussing your application. What interests you about pursuing research at Boston Children’s Hospital?",
+        "number": 11,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 1300,
+        "y": 700
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1300,
+        "y": 700
+      }
+    },
+    {
+      "id": "42cbb3ef-0730-47b4-8bc2-544cb8ec89df",
+      "data": {
+        "content": "And, what interests you the most about the positions you submitted an application for? \n",
+        "number": 12,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 1600,
+        "y": 850
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1600,
+        "y": 850
+      }
+    },
+    {
+      "id": "f8304cc7-f205-4219-a7ce-60866fad454b",
+      "data": {
+        "content": "What type of research are you interested in? For example: wet lab, bench research, clinical research or all of the above?",
+        "number": 13,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 1900,
+        "y": 1000
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1900,
+        "y": 1000
+      }
+    },
+    {
+      "id": "2da616a6-04bf-4867-baca-98b9fac4c477",
+      "data": {
+        "content": "Are there specific areas of research that interest you the most? Some examples of Research areas are hematology/oncology, cardiology, neurology, and emergency medicine. And, what excites you the most and why?",
+        "number": 14,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 2200,
+        "y": 1150
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2200,
+        "y": 1150
+      }
+    },
+    {
+      "id": "fa1ef1fe-eae5-4737-8f36-427c65df675d",
+      "data": {
+        "content": "If applicable, could you please explain your wet lab or bench experience?",
+        "number": 15,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 2500,
+        "y": 1300
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2500,
+        "y": 1300
+      }
+    },
+    {
+      "id": "4f2ea4a2-edc1-46d9-8ddb-d2c4d0b4d202",
+      "data": {
+        "content": "If applicable, can you please explain your clinical research experience?",
+        "number": 16,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 2800,
+        "y": 1450
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2800,
+        "y": 1450
+      }
+    },
+    {
+      "id": "2175debd-d595-4b14-ae2c-a22032a282fb",
+      "data": {
+        "content": "If applicable, can you please explain your computational or dry lab experience?",
+        "number": 17,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 3100,
+        "y": 1600
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 3100,
+        "y": 1600
+      }
+    },
+    {
+      "id": "16c0bd41-5be6-43b7-8f27-02cdb6206400",
+      "data": {
+        "content": "Do you have any research experience working with rodents, mice, or rats? ",
+        "number": 18,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 3400,
+        "y": 1750
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 3400,
+        "y": 1750
+      }
+    },
+    {
+      "id": "0eed5205-1ad5-4665-b599-c19f5a55fc1d",
+      "data": {
+        "content": "Do you have any experience working with children in any capacity? \n",
+        "number": 19,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 3700,
+        "y": 1900
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 3700,
+        "y": 1900
+      }
+    },
+    {
+      "id": "a71869f1-c59e-4ecd-97c2-988029215670",
+      "data": {
+        "content": "Do you have an intention of going back to school in the future? If so, when do you plan to do so?",
+        "number": 20,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 4000,
+        "y": 2050
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 4000,
+        "y": 2050
+      }
+    },
+    {
+      "id": "c1264cb9-388f-4897-9b00-cc7acd112896",
+      "data": {
+        "content": "And, what are your future career goals?",
+        "number": 21,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 4300,
+        "y": 2200
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 4300,
+        "y": 2200
+      }
+    },
+    {
+      "id": "4bfe494c-962b-40f0-bab3-a90e424543d8",
+      "data": {
+        "content": "Would you be willing to make at least a 2-year commitment if you were offered a position?  ",
+        "number": 22,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 4600,
+        "y": 2350
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 4600,
+        "y": 2350
+      }
+    },
+    {
+      "id": "fa42dcb3-2fd5-478c-b185-fcc412bf7480",
+      "data": {
+        "content": "Do you now or will you in the future require visa sponsorship?",
+        "number": 23,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 4900,
+        "y": 2500
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 4900,
+        "y": 2500
+      }
+    },
+    {
+      "id": "d5b5e29f-3e25-46c4-8e25-da9c810b9482",
+      "data": {
+        "content": "If you do not already live in the New England area, do you plan on relocating?",
+        "number": 24,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 5200,
+        "y": 2650
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 5200,
+        "y": 2650
+      }
+    },
+    {
+      "id": "a730fa68-d381-4b3a-b301-0fcccc04a8e7",
+      "data": {
+        "content": "Boston Children’s Hospital policy requires all employees to be fully vaccinated against the most recent COVID-19 vaccination and the flu, unless a medical or religious exemption is provided. These vaccination requirements apply to all employees, regardless of work location or job role. More information around this policy will be shared if you move forward in the recruitment process. Would you be able to accomodate this?",
+        "number": 25,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 5500,
+        "y": 2800
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 5500,
+        "y": 2800
+      }
+    },
+    {
+      "id": "0b98f4d5-21f3-4e33-8b4f-17fa4151f343",
+      "data": {
+        "content": "For entry-level Research positions, compensation ranges from $45,000 to $50,000 based on an applicant’s experience and education. Does this align with your expectations, or did you have a different range in mind? ",
+        "number": 26,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 5800,
+        "y": 2950
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 5800,
+        "y": 2950
+      }
+    },
+    {
+      "id": "dffef91c-7a11-40c5-9728-8a9232dcb2e4",
+      "data": {
+        "content": "Before we wrap up, I’d like to share what makes working at Boston Children’s Hospital so exciting. Consistently ranked among the top pediatric hospitals in the world, Boston Children’s Hospital is renowned for its exceptional patient care, groundbreaking research, and cutting-edge treatments. Joining our team means becoming part of a prestigious institution recognized globally for its expertise in pediatric healthcare. \nWe also offer a supportive environment for career growth, with access to ongoing educational opportunities, training programs, and pathways for advancement in various specialties. For those looking to gain experience before applying to medical school, pursuing an advanced degree, or building a long-term career in research, this opportunity is truly invaluable. You’ll also have the chance to collaborate with some of the brightest research minds in pediatric medicine. Does that all sound good?",
+        "number": 27,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 6100,
+        "y": 3100
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 6100,
+        "y": 3100
+      }
+    },
+    {
+      "id": "36044f50-3d0d-4d5c-a788-2b4764e7f998",
+      "data": {
+        "content": "Great! That concludes the questions I have for you. Thank you for taking the time to speak with me today. A recruiter from Boston Children’s Hospital will follow up with you if you are a potential fit for the role. Have a great rest of your day. Bye!!",
+        "number": 28,
+        "expectedAnswer": "",
+        "criteria": {
+          "minRequirement": "",
+          "autoReject": ""
+        },
+        "responseValidation": {
+          "valid": "",
+          "invalid": "",
+          "followup": ""
+        },
+        "followUpLogic": [
+          {
+            "condition": "",
+            "followUpQuestion": ""
+          }
+        ],
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "any user response including skip the question or move to the next question",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 6400,
+        "y": 3250
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 6400,
+        "y": 3250
+      }
+    },
+    {
+      "id": "ac9bca91-c6cc-4ae9-aad2-c4d36d51ff42",
+      "data": {
+        "content": "",
+        "number": 29,
+        "responses": [
+          {
+            "id": "response-1",
+            "content": "Check for Response: Ensure that the user has given a response.",
+            "happy": true
+          },
+          {
+            "id": "response-2",
+            "content": "Move to the next one OR skip the question.",
+            "happy": true
+          }
+        ]
+      },
+      "type": "dialogue_node",
+      "position": {
+        "x": 6700,
+        "y": 3400
+      },
+      "width": 406,
+      "height": 302,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 6700,
+        "y": 3400
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "b44ff9ed-cf37-47d3-a905-7264308e9a60",
+      "source": "95bc6a5e-cfcb-4dce-8234-d5f3262e5c90",
+      "target": "b670edfd-6df2-49d7-8863-8986dfeae69a",
+      "sourceHandle": "95bc6a5e-cfcb-4dce-8234-d5f3262e5c90_res_response-1",
+      "targetHandle": "b670edfd-6df2-49d7-8863-8986dfeae69a_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "78c63981-e00e-4f5f-b424-a74ab3c2603c",
+      "source": "b670edfd-6df2-49d7-8863-8986dfeae69a",
+      "target": "cb1d46ae-c412-44d3-9cef-d885aafd32e1",
+      "sourceHandle": "b670edfd-6df2-49d7-8863-8986dfeae69a_res_response-1",
+      "targetHandle": "cb1d46ae-c412-44d3-9cef-d885aafd32e1_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "90746d31-fbef-454b-97ce-ff993184ff97",
+      "source": "cb1d46ae-c412-44d3-9cef-d885aafd32e1",
+      "target": "2e41ded1-dec8-4778-ae57-c3d6cddf6976",
+      "sourceHandle": "cb1d46ae-c412-44d3-9cef-d885aafd32e1_res_response-1",
+      "targetHandle": "2e41ded1-dec8-4778-ae57-c3d6cddf6976_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "ef8e93cc-faad-4a46-87cf-83a9b6017ee0",
+      "source": "2e41ded1-dec8-4778-ae57-c3d6cddf6976",
+      "target": "9c37ebfc-43ac-404d-a0fb-e0a02cb2323b",
+      "sourceHandle": "2e41ded1-dec8-4778-ae57-c3d6cddf6976_res_response-1",
+      "targetHandle": "9c37ebfc-43ac-404d-a0fb-e0a02cb2323b_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "f8b3eb63-afe5-49b1-b1df-06bf4d039fa9",
+      "source": "9c37ebfc-43ac-404d-a0fb-e0a02cb2323b",
+      "target": "42cbb3ef-0730-47b4-8bc2-544cb8ec89df",
+      "sourceHandle": "9c37ebfc-43ac-404d-a0fb-e0a02cb2323b_res_response-1",
+      "targetHandle": "42cbb3ef-0730-47b4-8bc2-544cb8ec89df_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "7d7d4f13-584b-43aa-bc2a-1fc98edf1373",
+      "source": "42cbb3ef-0730-47b4-8bc2-544cb8ec89df",
+      "target": "f8304cc7-f205-4219-a7ce-60866fad454b",
+      "sourceHandle": "42cbb3ef-0730-47b4-8bc2-544cb8ec89df_res_response-1",
+      "targetHandle": "f8304cc7-f205-4219-a7ce-60866fad454b_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "81bcbc05-e4da-4773-b5f4-e1c124b92484",
+      "source": "f8304cc7-f205-4219-a7ce-60866fad454b",
+      "target": "2da616a6-04bf-4867-baca-98b9fac4c477",
+      "sourceHandle": "f8304cc7-f205-4219-a7ce-60866fad454b_res_response-1",
+      "targetHandle": "2da616a6-04bf-4867-baca-98b9fac4c477_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "1c4549a8-ec3e-4df1-a524-b25cf8d0b9bc",
+      "source": "2da616a6-04bf-4867-baca-98b9fac4c477",
+      "target": "fa1ef1fe-eae5-4737-8f36-427c65df675d",
+      "sourceHandle": "2da616a6-04bf-4867-baca-98b9fac4c477_res_response-1",
+      "targetHandle": "fa1ef1fe-eae5-4737-8f36-427c65df675d_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "3eada831-296c-4051-b0e4-786733b31197",
+      "source": "fa1ef1fe-eae5-4737-8f36-427c65df675d",
+      "target": "4f2ea4a2-edc1-46d9-8ddb-d2c4d0b4d202",
+      "sourceHandle": "fa1ef1fe-eae5-4737-8f36-427c65df675d_res_response-1",
+      "targetHandle": "4f2ea4a2-edc1-46d9-8ddb-d2c4d0b4d202_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "07a3175c-fcb5-4fc9-9b6f-a19c517b7655",
+      "source": "4f2ea4a2-edc1-46d9-8ddb-d2c4d0b4d202",
+      "target": "2175debd-d595-4b14-ae2c-a22032a282fb",
+      "sourceHandle": "4f2ea4a2-edc1-46d9-8ddb-d2c4d0b4d202_res_response-1",
+      "targetHandle": "2175debd-d595-4b14-ae2c-a22032a282fb_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "066cbb99-f9be-45e8-a804-6bf577c8ea0f",
+      "source": "2175debd-d595-4b14-ae2c-a22032a282fb",
+      "target": "16c0bd41-5be6-43b7-8f27-02cdb6206400",
+      "sourceHandle": "2175debd-d595-4b14-ae2c-a22032a282fb_res_response-1",
+      "targetHandle": "16c0bd41-5be6-43b7-8f27-02cdb6206400_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "f8ef8999-80cd-42ea-afc7-201c7bf92fc4",
+      "source": "16c0bd41-5be6-43b7-8f27-02cdb6206400",
+      "target": "0eed5205-1ad5-4665-b599-c19f5a55fc1d",
+      "sourceHandle": "16c0bd41-5be6-43b7-8f27-02cdb6206400_res_response-1",
+      "targetHandle": "0eed5205-1ad5-4665-b599-c19f5a55fc1d_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "e1d31e1e-c3ab-4e86-ae77-e415e7064633",
+      "source": "0eed5205-1ad5-4665-b599-c19f5a55fc1d",
+      "target": "a71869f1-c59e-4ecd-97c2-988029215670",
+      "sourceHandle": "0eed5205-1ad5-4665-b599-c19f5a55fc1d_res_response-1",
+      "targetHandle": "a71869f1-c59e-4ecd-97c2-988029215670_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "b68abf79-8a1c-423c-9976-3f12bb6d35d1",
+      "source": "a71869f1-c59e-4ecd-97c2-988029215670",
+      "target": "c1264cb9-388f-4897-9b00-cc7acd112896",
+      "sourceHandle": "a71869f1-c59e-4ecd-97c2-988029215670_res_response-1",
+      "targetHandle": "c1264cb9-388f-4897-9b00-cc7acd112896_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "972e9cb8-e4ce-4b6f-bd69-752c848b5d37",
+      "source": "c1264cb9-388f-4897-9b00-cc7acd112896",
+      "target": "4bfe494c-962b-40f0-bab3-a90e424543d8",
+      "sourceHandle": "c1264cb9-388f-4897-9b00-cc7acd112896_res_response-1",
+      "targetHandle": "4bfe494c-962b-40f0-bab3-a90e424543d8_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "5fe082fa-f6ac-421f-8991-c3451f7c55e4",
+      "source": "4bfe494c-962b-40f0-bab3-a90e424543d8",
+      "target": "fa42dcb3-2fd5-478c-b185-fcc412bf7480",
+      "sourceHandle": "4bfe494c-962b-40f0-bab3-a90e424543d8_res_response-1",
+      "targetHandle": "fa42dcb3-2fd5-478c-b185-fcc412bf7480_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "ccb854b3-21ed-4a62-bb88-1bfc91d4b9d3",
+      "source": "fa42dcb3-2fd5-478c-b185-fcc412bf7480",
+      "target": "d5b5e29f-3e25-46c4-8e25-da9c810b9482",
+      "sourceHandle": "fa42dcb3-2fd5-478c-b185-fcc412bf7480_res_response-1",
+      "targetHandle": "d5b5e29f-3e25-46c4-8e25-da9c810b9482_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "564c3757-21e8-4de2-8bbc-ef3195cd1402",
+      "source": "d5b5e29f-3e25-46c4-8e25-da9c810b9482",
+      "target": "a730fa68-d381-4b3a-b301-0fcccc04a8e7",
+      "sourceHandle": "d5b5e29f-3e25-46c4-8e25-da9c810b9482_res_response-1",
+      "targetHandle": "a730fa68-d381-4b3a-b301-0fcccc04a8e7_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "973e3396-894c-4af6-9e41-1736ee8bdcc8",
+      "source": "a730fa68-d381-4b3a-b301-0fcccc04a8e7",
+      "target": "0b98f4d5-21f3-4e33-8b4f-17fa4151f343",
+      "sourceHandle": "a730fa68-d381-4b3a-b301-0fcccc04a8e7_res_response-1",
+      "targetHandle": "0b98f4d5-21f3-4e33-8b4f-17fa4151f343_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "5d8434fe-1c49-4061-ba4e-9932f427915e",
+      "source": "0b98f4d5-21f3-4e33-8b4f-17fa4151f343",
+      "target": "dffef91c-7a11-40c5-9728-8a9232dcb2e4",
+      "sourceHandle": "0b98f4d5-21f3-4e33-8b4f-17fa4151f343_res_response-1",
+      "targetHandle": "dffef91c-7a11-40c5-9728-8a9232dcb2e4_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "27c77162-eecb-4007-9e19-ba5128d53648",
+      "source": "dffef91c-7a11-40c5-9728-8a9232dcb2e4",
+      "target": "36044f50-3d0d-4d5c-a788-2b4764e7f998",
+      "sourceHandle": "dffef91c-7a11-40c5-9728-8a9232dcb2e4_res_response-1",
+      "targetHandle": "36044f50-3d0d-4d5c-a788-2b4764e7f998_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    },
+    {
+      "id": "62cd27d5-3efd-4239-bfec-376b243b7825",
+      "source": "36044f50-3d0d-4d5c-a788-2b4764e7f998",
+      "target": "ac9bca91-c6cc-4ae9-aad2-c4d36d51ff42",
+      "sourceHandle": "36044f50-3d0d-4d5c-a788-2b4764e7f998_res_response-1",
+      "targetHandle": "ac9bca91-c6cc-4ae9-aad2-c4d36d51ff42_input",
+      "style": {
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "curve": "smoothstep"
+      }
+    }
+  ],
+  "functions": [
+    {
+      "name": "Supervisor",
+      "id": "supervisor",
+      "exitNodes": [
+        "ef877ca8-04dd-497f-a6f3-8cbd5ed8629b"
+      ],
+      "nodes": [
+        {
+          "id": "1a04aa1d-b7fa-4540-b9e3-68c754440257",
+          "type": "dialogue_entry",
+          "position": {
+            "x": 257.26832514072345,
+            "y": -489.9629339331069
+          },
+          "data": {
+            "number": 0
+          },
+          "width": 406,
+          "height": 93,
+          "style": {
+            "borderColor": "inherit"
+          }
+        },
+        {
+          "id": "abb47588-8761-4b6b-b941-a4e0195058eb",
+          "type": "dialogue_node",
+          "position": {
+            "x": 30.73464741257277,
+            "y": -224.4054784241631
+          },
+          "data": {
+            "number": 1,
+            "responses": [
+              {
+                "id": "1f5d649e-05ed-4787-9699-d453b684ca91",
+                "content": "yes or Okay",
+                "happy": false
+              },
+              {
+                "id": "6e4224ab-58ac-49f5-ab22-d883836090d0",
+                "content": "anything else",
+                "happy": false
+              }
+            ],
+            "content": "That's a great question. I don't have that information on hand right now, but a MSK recruiter will get back to you with the answer right after this call. Does that sound good?"
+          },
+          "style": {
+            "borderColor": "inherit"
+          },
+          "width": 406,
+          "height": 302,
+          "selected": true,
+          "dragging": false,
+          "positionAbsolute": {
+            "x": 30.73464741257277,
+            "y": -224.4054784241631
+          }
+        },
+        {
+          "id": "8c8fd104-cc29-4e75-8bac-fd3f06a42d89",
+          "type": "dialogue_node",
+          "position": {
+            "x": 138.42631071285342,
+            "y": 447.30252997243815
+          },
+          "data": {
+            "number": 3,
+            "responses": [
+              {
+                "id": "08096e97-c9a4-4f89-9244-b914b59352ed",
+                "content": "GIVES TIME",
+                "happy": false
+              }
+            ],
+            "content": "I see. To ensure you get the most accurate information, what time works best for you today or in the coming days to set up a call with a MSK recruiter?"
+          },
+          "style": {
+            "borderColor": "inherit"
+          },
+          "width": 406,
+          "height": 302,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 138.42631071285342,
+            "y": 447.30252997243815
+          },
+          "dragging": false
+        },
+        {
+          "id": "ef877ca8-04dd-497f-a6f3-8cbd5ed8629b",
+          "type": "function_output",
+          "position": {
+            "x": 1159.351307803988,
+            "y": 477.5917532718262
+          },
+          "data": {
+            "number": 5,
+            "name": "Return to next node"
+          },
+          "width": 406,
+          "height": 176,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 1159.351307803988,
+            "y": 477.5917532718262
+          },
+          "dragging": false,
+          "style": {
+            "borderColor": "inherit"
+          }
+        },
+        {
+          "id": "8deb84b8-d03f-4400-8ae2-97e83caee36c",
+          "type": "dialogue_node",
+          "position": {
+            "x": 131.2310886737149,
+            "y": 880.2602512519246
+          },
+          "data": {
+            "number": 6,
+            "responses": [],
+            "content": "I will arrange a call for that time. Thanks for your time, have a good one!"
+          },
+          "style": {
+            "borderColor": "inherit"
+          },
+          "width": 406,
+          "height": 302,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 131.2310886737149,
+            "y": 880.2602512519246
+          },
+          "dragging": false
+        }
+      ],
+      "edges": [
+        {
+          "animated": false,
+          "source": "abb47588-8761-4b6b-b941-a4e0195058eb",
+          "sourceHandle": "abb47588-8761-4b6b-b941-a4e0195058eb_res_a0e388ad-d8bd-4712-af84-9532803a15b7",
+          "target": "8c8fd104-cc29-4e75-8bac-fd3f06a42d89",
+          "targetHandle": null,
+          "id": "reactflow__edge-abb47588-8761-4b6b-b941-a4e0195058ebabb47588-8761-4b6b-b941-a4e0195058eb_res_a0e388ad-d8bd-4712-af84-9532803a15b7-8c8fd104-cc29-4e75-8bac-fd3f06a42d89",
+          "style": {
+            "stroke": "#ed6d59"
+          }
+        },
+        {
+          "animated": false,
+          "source": "abb47588-8761-4b6b-b941-a4e0195058eb",
+          "sourceHandle": "abb47588-8761-4b6b-b941-a4e0195058eb_res_08b10864-b087-454a-9fec-786b4c3cb04c",
+          "target": "8c8fd104-cc29-4e75-8bac-fd3f06a42d89",
+          "targetHandle": null,
+          "id": "reactflow__edge-abb47588-8761-4b6b-b941-a4e0195058ebabb47588-8761-4b6b-b941-a4e0195058eb_res_08b10864-b087-454a-9fec-786b4c3cb04c-8c8fd104-cc29-4e75-8bac-fd3f06a42d89",
+          "style": {
+            "stroke": "#ed6d59"
+          }
+        },
+        {
+          "animated": false,
+          "source": "abb47588-8761-4b6b-b941-a4e0195058eb",
+          "sourceHandle": "abb47588-8761-4b6b-b941-a4e0195058eb_res_95f89e22-4813-4e8e-a8c9-8757c471a5af",
+          "target": "ef877ca8-04dd-497f-a6f3-8cbd5ed8629b",
+          "targetHandle": null,
+          "id": "reactflow__edge-abb47588-8761-4b6b-b941-a4e0195058ebabb47588-8761-4b6b-b941-a4e0195058eb_res_95f89e22-4813-4e8e-a8c9-8757c471a5af-ef877ca8-04dd-497f-a6f3-8cbd5ed8629b",
+          "style": {
+            "stroke": "#ac1946"
+          }
+        },
+        {
+          "animated": false,
+          "source": "8c8fd104-cc29-4e75-8bac-fd3f06a42d89",
+          "sourceHandle": "8c8fd104-cc29-4e75-8bac-fd3f06a42d89_res_08096e97-c9a4-4f89-9244-b914b59352ed",
+          "target": "8deb84b8-d03f-4400-8ae2-97e83caee36c",
+          "targetHandle": null,
+          "id": "reactflow__edge-8c8fd104-cc29-4e75-8bac-fd3f06a42d898c8fd104-cc29-4e75-8bac-fd3f06a42d89_res_08096e97-c9a4-4f89-9244-b914b59352ed-8deb84b8-d03f-4400-8ae2-97e83caee36c",
+          "style": {
+            "stroke": "#1382eb"
+          }
+        },
+        {
+          "animated": false,
+          "source": "1a04aa1d-b7fa-4540-b9e3-68c754440257",
+          "sourceHandle": null,
+          "target": "abb47588-8761-4b6b-b941-a4e0195058eb",
+          "targetHandle": null,
+          "id": "reactflow__edge-1a04aa1d-b7fa-4540-b9e3-68c754440257abb47588-8761-4b6b-b941-a4e0195058eb",
+          "style": {
+            "stroke": "#7ccb56"
+          }
+        },
+        {
+          "animated": false,
+          "source": "abb47588-8761-4b6b-b941-a4e0195058eb",
+          "sourceHandle": "abb47588-8761-4b6b-b941-a4e0195058eb_res_50894bb5-0f77-4dc3-ac0f-163d23ed1721",
+          "target": "8c8fd104-cc29-4e75-8bac-fd3f06a42d89",
+          "targetHandle": null,
+          "id": "reactflow__edge-abb47588-8761-4b6b-b941-a4e0195058ebabb47588-8761-4b6b-b941-a4e0195058eb_res_50894bb5-0f77-4dc3-ac0f-163d23ed1721-8c8fd104-cc29-4e75-8bac-fd3f06a42d89",
+          "style": {
+            "stroke": "#ed6d59"
+          }
+        },
+        {
+          "animated": false,
+          "source": "abb47588-8761-4b6b-b941-a4e0195058eb",
+          "sourceHandle": "abb47588-8761-4b6b-b941-a4e0195058eb_res_6e4224ab-58ac-49f5-ab22-d883836090d0",
+          "target": "8c8fd104-cc29-4e75-8bac-fd3f06a42d89",
+          "targetHandle": null,
+          "id": "reactflow__edge-abb47588-8761-4b6b-b941-a4e0195058ebabb47588-8761-4b6b-b941-a4e0195058eb_res_6e4224ab-58ac-49f5-ab22-d883836090d0-8c8fd104-cc29-4e75-8bac-fd3f06a42d89",
+          "style": {
+            "stroke": "#ed6d59"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c785d159-efac-47a7-af4b-004dcda7b156",
+      "name": "FAQs",
+      "nodes": [
+        {
+          "id": "26e7e73d-2b66-4092-8409-f1026672e161",
+          "data": {
+            "content": "Can I re-schedule to X time",
+            "answer": "Yes, you are able to do so. Does that sound good?",
+            "number": 30
+          },
+          "type": "dialogue_node",
+          "position": {
+            "x": 100,
+            "y": 100
+          },
+          "style": {
+            "borderColor": "inherit"
+          }
+        },
+        {
+          "id": "c6bf918f-8933-4e90-9eab-501df60cef01",
+          "data": {
+            "content": "Questions beyond the scope of AI:",
+            "answer": "Got it! I don’t have that information right now, but I’ve noted \nyour question. During the interview stage, a human talent representative from Boston Children’s \nHospital will be happy to answer it for you. Shall we proceed?",
+            "number": 31
+          },
+          "type": "dialogue_node",
+          "position": {
+            "x": 400,
+            "y": 250
+          },
+          "style": {
+            "borderColor": "inherit"
+          }
+        }
+      ],
+      "edges": [],
+      "exitNodes": []
+    },
+    {
+      "id": "bf811dff-2331-4480-88e3-a2fcda9aa666",
+      "name": "add something or move to next",
+      "nodes": [
+        {
+          "id": "e2706e0b-d862-4431-9a43-80f6c07e5cb3",
+          "type": "dialogue_entry",
+          "position": {
+            "x": -80.44481401051013,
+            "y": -80.44481401051013
+          },
+          "data": {
+            "number": 146
+          },
+          "width": 406,
+          "height": 93,
+          "selected": false,
+          "positionAbsolute": {
+            "x": -80.44481401051013,
+            "y": -80.44481401051013
+          },
+          "dragging": false,
+          "style": {
+            "borderColor": "inherit"
+          }
+        },
+        {
+          "id": "738caa85-9219-4263-892f-d80e4ea6936e",
+          "type": "dialogue_node",
+          "position": {
+            "x": -267.38569547445405,
+            "y": 103.5739903827822
+          },
+          "data": {
+            "number": 147,
+            "responses": [
+              {
+                "id": "ddfc8d7a-c4f3-41ef-b96c-7e8845212db0",
+                "content": "add something",
+                "happy": false
+              },
+              {
+                "id": "48a2bc22-2b79-4d97-8c2f-3d34bf8cbffc",
+                "content": "next question",
+                "happy": false
+              },
+              {
+                "id": "211a3914-0a93-46a5-9456-6880edb2b430",
+                "content": "move ahead",
+                "happy": false
+              }
+            ],
+            "content": "Would you like to add something ,or shall we move to the next question?\n"
+          },
+          "style": {
+            "borderColor": "inherit"
+          },
+          "width": 454,
+          "height": 302,
+          "selected": false,
+          "positionAbsolute": {
+            "x": -267.38569547445405,
+            "y": 103.5739903827822
+          },
+          "dragging": false
+        },
+        {
+          "id": "98b38686-e3e7-4455-a033-2135d686d3cf",
+          "type": "function_output",
+          "position": {
+            "x": 54.54123190843791,
+            "y": 768.6719514733115
+          },
+          "data": {
+            "number": 148,
+            "name": "Output 148"
+          },
+          "width": 406,
+          "height": 176,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 54.54123190843791,
+            "y": 768.6719514733115
+          },
+          "dragging": false,
+          "style": {
+            "borderColor": "inherit"
+          }
+        },
+        {
+          "id": "e6ce132e-4865-46cd-9d43-d05a9ae25261",
+          "type": "dialogue_node",
+          "position": {
+            "x": -593.5879793193783,
+            "y": 521.3915232089851
+          },
+          "data": {
+            "number": 149,
+            "responses": [
+              {
+                "id": "2c0fa40f-2a8e-451a-b2fe-67174f7b8d99",
+                "content": "any user response including skip the question or move to the next question",
+                "happy": false
+              }
+            ],
+            "content": "Please go ahead..."
+          },
+          "style": {
+            "borderColor": "inherit"
+          },
+          "width": 406,
+          "height": 302,
+          "selected": true,
+          "dragging": false,
+          "positionAbsolute": {
+            "x": -593.5879793193783,
+            "y": 521.3915232089851
+          }
+        }
+      ],
+      "edges": [
+        {
+          "animated": false,
+          "source": "e2706e0b-d862-4431-9a43-80f6c07e5cb3",
+          "sourceHandle": null,
+          "target": "738caa85-9219-4263-892f-d80e4ea6936e",
+          "targetHandle": null,
+          "id": "reactflow__edge-e2706e0b-d862-4431-9a43-80f6c07e5cb3-738caa85-9219-4263-892f-d80e4ea6936e",
+          "style": {
+            "stroke": "#ddcbb5"
+          }
+        },
+        {
+          "animated": false,
+          "source": "738caa85-9219-4263-892f-d80e4ea6936e",
+          "sourceHandle": "738caa85-9219-4263-892f-d80e4ea6936e_res_48a2bc22-2b79-4d97-8c2f-3d34bf8cbffc",
+          "target": "98b38686-e3e7-4455-a033-2135d686d3cf",
+          "targetHandle": null,
+          "id": "reactflow__edge-738caa85-9219-4263-892f-d80e4ea6936e738caa85-9219-4263-892f-d80e4ea6936e_res_48a2bc22-2b79-4d97-8c2f-3d34bf8cbffc-98b38686-e3e7-4455-a033-2135d686d3cf",
+          "style": {
+            "stroke": "#1d36fe"
+          }
+        },
+        {
+          "animated": false,
+          "source": "738caa85-9219-4263-892f-d80e4ea6936e",
+          "sourceHandle": "738caa85-9219-4263-892f-d80e4ea6936e_res_211a3914-0a93-46a5-9456-6880edb2b430",
+          "target": "98b38686-e3e7-4455-a033-2135d686d3cf",
+          "targetHandle": null,
+          "id": "reactflow__edge-738caa85-9219-4263-892f-d80e4ea6936e738caa85-9219-4263-892f-d80e4ea6936e_res_211a3914-0a93-46a5-9456-6880edb2b430-98b38686-e3e7-4455-a033-2135d686d3cf",
+          "style": {
+            "stroke": "#1d36fe"
+          }
+        },
+        {
+          "animated": false,
+          "source": "e6ce132e-4865-46cd-9d43-d05a9ae25261",
+          "sourceHandle": "e6ce132e-4865-46cd-9d43-d05a9ae25261_res_2c0fa40f-2a8e-451a-b2fe-67174f7b8d99",
+          "target": "98b38686-e3e7-4455-a033-2135d686d3cf",
+          "targetHandle": null,
+          "id": "reactflow__edge-e6ce132e-4865-46cd-9d43-d05a9ae25261e6ce132e-4865-46cd-9d43-d05a9ae25261_res_2c0fa40f-2a8e-451a-b2fe-67174f7b8d99-98b38686-e3e7-4455-a033-2135d686d3cf",
+          "style": {
+            "stroke": "#1d36fe"
+          }
+        },
+        {
+          "animated": false,
+          "source": "738caa85-9219-4263-892f-d80e4ea6936e",
+          "sourceHandle": "738caa85-9219-4263-892f-d80e4ea6936e_res_ddfc8d7a-c4f3-41ef-b96c-7e8845212db0",
+          "target": "e6ce132e-4865-46cd-9d43-d05a9ae25261",
+          "targetHandle": null,
+          "id": "reactflow__edge-738caa85-9219-4263-892f-d80e4ea6936e738caa85-9219-4263-892f-d80e4ea6936e_res_ddfc8d7a-c4f3-41ef-b96c-7e8845212db0-e6ce132e-4865-46cd-9d43-d05a9ae25261",
+          "style": {
+            "stroke": "#da73a9"
+          }
+        }
+      ],
+      "exitNodes": []
+    },
+    {
+      "id": "2c9f2f42-afd0-4aca-aa01-18f237246c97",
+      "name": "compensation",
+      "nodes": [
+        {
+          "id": "d55be0f1-8025-4f31-90e8-0927aa80b62d",
+          "type": "dialogue_entry",
+          "position": {
+            "x": -85.73741982395438,
+            "y": -60.968831874812
+          },
+          "data": {
+            "number": 159
+          },
+          "width": 406,
+          "height": 93,
+          "selected": false,
+          "positionAbsolute": {
+            "x": -85.73741982395438,
+            "y": -60.968831874812
+          },
+          "dragging": false,
+          "style": {
+            "borderColor": "inherit"
+          }
+        },
+        {
+          "id": "9142a472-c38f-4e8d-834a-4a0da57477da",
+          "type": "dialogue_node",
+          "position": {
+            "x": 200.87908794138087,
+            "y": 152.56803046126885
+          },
+          "data": {
+            "number": 160,
+            "responses": [
+              {
+                "id": "c3209ce3-3c6c-4c56-a5b6-7bd0ad8b1063",
+                "content": "yes",
+                "happy": false
+              },
+              {
+                "id": "10e0aa3e-ba61-4156-a5a2-455a9f02b012",
+                "content": "no OR gives some other salary expectation",
+                "happy": false
+              },
+              {
+                "id": "10304a29-330f-4d4f-9125-20ed4419ebc9",
+                "content": "benefits",
+                "happy": false
+              },
+              {
+                "id": "959842f4-893d-4678-80ea-645c1389abb1",
+                "content": "move to the next question",
+                "happy": false
+              }
+            ],
+            "content": "The pay range for this role is 21.95 dollars to 28.16 dollars an hour based on experience, including excellent benefits. Does this fit with your compensation expectations?"
+          },
+          "style": {
+            "borderColor": "inherit"
+          },
+          "width": 703,
+          "height": 302,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 200.87908794138087,
+            "y": 152.56803046126885
+          },
+          "dragging": false
+        },
+        {
+          "width": 830,
+          "height": 302,
+          "id": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0",
+          "type": "dialogue_node",
+          "position": {
+            "x": 227.4147830019756,
+            "y": 809.0342497924725
+          },
+          "data": {
+            "responses": [
+              {
+                "id": "f56e3c4f-7266-4f11-a1a9-832493018528",
+                "content": "benefits",
+                "happy": false
+              },
+              {
+                "id": "b9e7b178-adf0-4a3e-84a3-883bf1c25810",
+                "content": "how much can you offer",
+                "happy": false
+              },
+              {
+                "id": "5228ec70-e02c-4848-b13e-005874eeef76",
+                "content": "more than 28$ an hour",
+                "happy": false
+              },
+              {
+                "id": "63254dc1-5fd3-4839-9d04-9e332b28e886",
+                "content": "less than equal to 21 dollars and hour",
+                "happy": false
+              }
+            ],
+            "content": "What is your preferred hourly rate of pay?",
+            "number": 162
+          },
+          "selected": false,
+          "positionAbsolute": {
+            "x": 227.4147830019756,
+            "y": 809.0342497924725
+          },
+          "dragging": false,
+          "style": {
+            "borderColor": "inherit"
+          }
+        },
+        {
+          "width": 542,
+          "height": 302,
+          "id": "ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "type": "dialogue_node",
+          "position": {
+            "x": 261.2719258591185,
+            "y": 1839.0631343755745
+          },
+          "data": {
+            "responses": [
+              {
+                "id": "20c0c651-3d65-442d-8df3-5af7e17c113f",
+                "content": "yes OR sounds good or that works for me",
+                "happy": false
+              },
+              {
+                "id": "097cb446-eb1f-4c6f-89d7-a3ffdee3ce2d",
+                "content": "no OR I am not comfortable OR I need more money",
+                "happy": false
+              }
+            ],
+            "content": "As I mentioned before, the compensation for this role starts at 21.95 dollars an hour and can go upto 28.16 dollars per hour based on your relevant experience. Additionally, we offer a comprehensive benefits package. Would you be comfortable with a rate within this range? If you have any further questions or concerns, you will have the opportunity to discuss them with a MSK representative in a future call.",
+            "number": 163
+          },
+          "selected": false,
+          "positionAbsolute": {
+            "x": 261.2719258591185,
+            "y": 1839.0631343755745
+          },
+          "dragging": false,
+          "style": {
+            "borderColor": "inherit"
+          }
+        },
+        {
+          "width": 406,
+          "height": 302,
+          "id": "40d71dc7-ac0c-4b66-9200-dcbf844cf346",
+          "type": "dialogue_node",
+          "position": {
+            "x": 1069.5208432797929,
+            "y": 2292.6535421777858
+          },
+          "data": {
+            "responses": [],
+            "content": "Thank you for your interest in MSK and your application. At this time, we have determined that this position may not be the right fit for you. Please feel free to continue to visit our career site for future openings. Thank you!",
+            "number": 164
+          },
+          "selected": false,
+          "positionAbsolute": {
+            "x": 1069.5208432797929,
+            "y": 2292.6535421777858
+          },
+          "dragging": false,
+          "style": {
+            "borderColor": "inherit"
+          }
+        },
+        {
+          "width": 904,
+          "height": 302,
+          "id": "c26c4c86-2530-4083-bb6a-906170abe087",
+          "type": "dialogue_node",
+          "position": {
+            "x": 1251.79556760951,
+            "y": 1279.9484629834851
+          },
+          "data": {
+            "responses": [
+              {
+                "id": "68119eb4-f46d-432a-a456-ebe38cce4503",
+                "content": "okay OR sounds good",
+                "happy": false
+              },
+              {
+                "id": "c1a72cea-6d6e-4d76-a760-225ff4d084d3",
+                "content": "no that does not work OR I need more money",
+                "happy": false
+              },
+              {
+                "id": "d1d3d6d6-96fa-4812-9f6e-dcf491083f1d",
+                "content": "more than 21 dollars an hour",
+                "happy": false
+              },
+              {
+                "id": "d203288a-2c4b-4c91-9b17-2ebcf731bf70",
+                "content": "need more pay",
+                "happy": false
+              }
+            ],
+            "content": "At MSK, we offer a comprehensive benefits package, including 10 vacation days, 12 sick days, and designated holidays each year. We also provide opportunities for overtime based on departmental needs. Additionally, MSK offers multiple tuition assistance programs, including up to $12,500 per year for full-time employees. For more details on our benefits, you can visit our MSK Career website. Does that sound good to you?",
+            "number": 165
+          },
+          "selected": true,
+          "positionAbsolute": {
+            "x": 1251.79556760951,
+            "y": 1279.9484629834851
+          },
+          "dragging": false,
+          "style": {
+            "borderColor": "inherit"
+          }
+        },
+        {
+          "id": "8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "type": "function_output",
+          "position": {
+            "x": -719.3281128289202,
+            "y": 959.8008505708474
+          },
+          "data": {
+            "number": 167,
+            "name": "Output 167"
+          },
+          "width": 406,
+          "height": 176,
+          "selected": false,
+          "positionAbsolute": {
+            "x": -719.3281128289202,
+            "y": 959.8008505708474
+          },
+          "dragging": false,
+          "style": {
+            "borderColor": "inherit"
+          }
+        }
+      ],
+      "edges": [
+        {
+          "animated": false,
+          "source": "d55be0f1-8025-4f31-90e8-0927aa80b62d",
+          "sourceHandle": null,
+          "target": "9142a472-c38f-4e8d-834a-4a0da57477da",
+          "targetHandle": null,
+          "id": "reactflow__edge-d55be0f1-8025-4f31-90e8-0927aa80b62d-9142a472-c38f-4e8d-834a-4a0da57477da",
+          "style": {
+            "stroke": "#32e951"
+          }
+        },
+        {
+          "animated": false,
+          "source": "9142a472-c38f-4e8d-834a-4a0da57477da",
+          "sourceHandle": "9142a472-c38f-4e8d-834a-4a0da57477da_res_c3209ce3-3c6c-4c56-a5b6-7bd0ad8b1063",
+          "target": "8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "targetHandle": null,
+          "id": "reactflow__edge-9142a472-c38f-4e8d-834a-4a0da57477da9142a472-c38f-4e8d-834a-4a0da57477da_res_c3209ce3-3c6c-4c56-a5b6-7bd0ad8b1063-8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "style": {
+            "stroke": "#e64af5"
+          }
+        },
+        {
+          "animated": false,
+          "source": "9142a472-c38f-4e8d-834a-4a0da57477da",
+          "sourceHandle": "9142a472-c38f-4e8d-834a-4a0da57477da_res_10e0aa3e-ba61-4156-a5a2-455a9f02b012",
+          "target": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0",
+          "targetHandle": null,
+          "id": "reactflow__edge-9142a472-c38f-4e8d-834a-4a0da57477da9142a472-c38f-4e8d-834a-4a0da57477da_res_10e0aa3e-ba61-4156-a5a2-455a9f02b012-0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0",
+          "style": {
+            "stroke": "#2e89c8"
+          }
+        },
+        {
+          "animated": false,
+          "source": "9142a472-c38f-4e8d-834a-4a0da57477da",
+          "sourceHandle": "9142a472-c38f-4e8d-834a-4a0da57477da_res_10304a29-330f-4d4f-9125-20ed4419ebc9",
+          "target": "c26c4c86-2530-4083-bb6a-906170abe087",
+          "targetHandle": null,
+          "id": "reactflow__edge-9142a472-c38f-4e8d-834a-4a0da57477da9142a472-c38f-4e8d-834a-4a0da57477da_res_10304a29-330f-4d4f-9125-20ed4419ebc9-c26c4c86-2530-4083-bb6a-906170abe087",
+          "style": {
+            "stroke": "#594857"
+          }
+        },
+        {
+          "animated": false,
+          "source": "9142a472-c38f-4e8d-834a-4a0da57477da",
+          "sourceHandle": "9142a472-c38f-4e8d-834a-4a0da57477da_res_959842f4-893d-4678-80ea-645c1389abb1",
+          "target": "8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "targetHandle": null,
+          "id": "reactflow__edge-9142a472-c38f-4e8d-834a-4a0da57477da9142a472-c38f-4e8d-834a-4a0da57477da_res_959842f4-893d-4678-80ea-645c1389abb1-8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "style": {
+            "stroke": "#e64af5"
+          }
+        },
+        {
+          "animated": false,
+          "source": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0",
+          "sourceHandle": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0_res_b9e7b178-adf0-4a3e-84a3-883bf1c25810",
+          "target": "ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "targetHandle": null,
+          "id": "reactflow__edge-0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf00b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0_res_b9e7b178-adf0-4a3e-84a3-883bf1c25810-ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "style": {
+            "stroke": "#4454a4"
+          }
+        },
+        {
+          "animated": false,
+          "source": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0",
+          "sourceHandle": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0_res_b92bd78a-8725-4c8f-9927-a09b4e87fdf1",
+          "target": "ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "targetHandle": null,
+          "id": "reactflow__edge-0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf00b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0_res_b92bd78a-8725-4c8f-9927-a09b4e87fdf1-ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "style": {
+            "stroke": "#4454a4"
+          }
+        },
+        {
+          "animated": false,
+          "source": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0",
+          "sourceHandle": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0_res_232404fd-dcda-476d-9df6-ab9fd9e69e5d",
+          "target": "8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "targetHandle": null,
+          "id": "reactflow__edge-0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf00b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0_res_232404fd-dcda-476d-9df6-ab9fd9e69e5d-8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "style": {
+            "stroke": "#e64af5"
+          }
+        },
+        {
+          "animated": false,
+          "source": "c26c4c86-2530-4083-bb6a-906170abe087",
+          "sourceHandle": "c26c4c86-2530-4083-bb6a-906170abe087_res_68119eb4-f46d-432a-a456-ebe38cce4503",
+          "target": "8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "targetHandle": null,
+          "id": "reactflow__edge-c26c4c86-2530-4083-bb6a-906170abe087c26c4c86-2530-4083-bb6a-906170abe087_res_68119eb4-f46d-432a-a456-ebe38cce4503-8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "style": {
+            "stroke": "#e64af5"
+          }
+        },
+        {
+          "animated": false,
+          "source": "c26c4c86-2530-4083-bb6a-906170abe087",
+          "sourceHandle": "c26c4c86-2530-4083-bb6a-906170abe087_res_c1a72cea-6d6e-4d76-a760-225ff4d084d3",
+          "target": "ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "targetHandle": null,
+          "id": "reactflow__edge-c26c4c86-2530-4083-bb6a-906170abe087c26c4c86-2530-4083-bb6a-906170abe087_res_c1a72cea-6d6e-4d76-a760-225ff4d084d3-ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "style": {
+            "stroke": "#4454a4"
+          }
+        },
+        {
+          "animated": false,
+          "source": "c26c4c86-2530-4083-bb6a-906170abe087",
+          "sourceHandle": "c26c4c86-2530-4083-bb6a-906170abe087_res_d1d3d6d6-96fa-4812-9f6e-dcf491083f1d",
+          "target": "ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "targetHandle": null,
+          "id": "reactflow__edge-c26c4c86-2530-4083-bb6a-906170abe087c26c4c86-2530-4083-bb6a-906170abe087_res_d1d3d6d6-96fa-4812-9f6e-dcf491083f1d-ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "style": {
+            "stroke": "#4454a4"
+          }
+        },
+        {
+          "animated": false,
+          "source": "c26c4c86-2530-4083-bb6a-906170abe087",
+          "sourceHandle": "c26c4c86-2530-4083-bb6a-906170abe087_res_d203288a-2c4b-4c91-9b17-2ebcf731bf70",
+          "target": "ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "targetHandle": null,
+          "id": "reactflow__edge-c26c4c86-2530-4083-bb6a-906170abe087c26c4c86-2530-4083-bb6a-906170abe087_res_d203288a-2c4b-4c91-9b17-2ebcf731bf70-ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "style": {
+            "stroke": "#4454a4"
+          }
+        },
+        {
+          "animated": false,
+          "source": "ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "sourceHandle": "ce92c04b-78a4-4e1d-91b8-c3c9004c7910_res_097cb446-eb1f-4c6f-89d7-a3ffdee3ce2d",
+          "target": "40d71dc7-ac0c-4b66-9200-dcbf844cf346",
+          "targetHandle": null,
+          "id": "reactflow__edge-ce92c04b-78a4-4e1d-91b8-c3c9004c7910ce92c04b-78a4-4e1d-91b8-c3c9004c7910_res_097cb446-eb1f-4c6f-89d7-a3ffdee3ce2d-40d71dc7-ac0c-4b66-9200-dcbf844cf346",
+          "style": {
+            "stroke": "#b00036"
+          }
+        },
+        {
+          "animated": false,
+          "source": "ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "sourceHandle": "ce92c04b-78a4-4e1d-91b8-c3c9004c7910_res_20c0c651-3d65-442d-8df3-5af7e17c113f",
+          "target": "8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "targetHandle": null,
+          "id": "reactflow__edge-ce92c04b-78a4-4e1d-91b8-c3c9004c7910ce92c04b-78a4-4e1d-91b8-c3c9004c7910_res_20c0c651-3d65-442d-8df3-5af7e17c113f-8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "style": {
+            "stroke": "#e64af5"
+          }
+        },
+        {
+          "animated": false,
+          "source": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0",
+          "sourceHandle": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0_res_5228ec70-e02c-4848-b13e-005874eeef76",
+          "target": "ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "targetHandle": null,
+          "id": "reactflow__edge-0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf00b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0_res_5228ec70-e02c-4848-b13e-005874eeef76-ce92c04b-78a4-4e1d-91b8-c3c9004c7910",
+          "style": {
+            "stroke": "#4454a4"
+          }
+        },
+        {
+          "animated": false,
+          "source": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0",
+          "sourceHandle": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0_res_f56e3c4f-7266-4f11-a1a9-832493018528",
+          "target": "c26c4c86-2530-4083-bb6a-906170abe087",
+          "targetHandle": null,
+          "id": "reactflow__edge-0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf00b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0_res_f56e3c4f-7266-4f11-a1a9-832493018528-c26c4c86-2530-4083-bb6a-906170abe087",
+          "style": {
+            "stroke": "#594857"
+          }
+        },
+        {
+          "animated": false,
+          "source": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0",
+          "sourceHandle": "0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0_res_63254dc1-5fd3-4839-9d04-9e332b28e886",
+          "target": "8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "targetHandle": null,
+          "id": "reactflow__edge-0b18c0d6-d496-42e9-8fcd-8bcb5dcbebf00b18c0d6-d496-42e9-8fcd-8bcb5dcbebf0_res_63254dc1-5fd3-4839-9d04-9e332b28e886-8a7f23a3-ef8a-4393-b67b-5f9fc6a96211",
+          "style": {
+            "stroke": "#e64af5"
+          }
+        }
+      ],
+      "exitNodes": []
+    }
+  ],
+"extraParams": {
+    "retry_attempts": 3,
+    "retry_interval_minutes": 0.2,
+    "list_of_editable_nodes": [7],
+    "list_of_dynamic_nodes": [],
+    "first_node": "7",
+    "voicemail_node": "0",
+    "supervisor_node": "1",
+    "next_stage_mapping": {},
+    "base_audio_recordings_hosted": "https://pranaymanocha.github.io/BCRA20250310T202839306Z",
+    "audio_extension": "mp3",
+    "audio_files_naming_base": "node",
+    "too_many_repeats_node": 3,
+    "long_stages": [12,13,14,16,18,19,29,21,22,23,27,26,24],
+    "long_stage_speechModel": "experimental_conversations",
+    "long_stage_speechTimeout_secs": 5,
+    "long_stage_hints": "Yes, No, Hello, Yeah, Sure, Go ahead, Move to the next one, That sounds good, Yes this is she, Yes this is her, Yes I do, No I don't, I understand, I agree, That\u2019s correct, Okay, Alright, Definitely, Absolutely, Of course, Sure thing, Fine, No problem, Yes I can, Yes I will, No I won\u2019t, Not at the moment, I can do that, I cannot do that, I\u2019m interested, I\u2019m not interested, That works for me, That doesn\u2019t work for me, I need more information, I\u2019m available, I\u2019m not available, Yes I have, No I haven\u2019t, Yes I am, No I am not, I can verify, I cannot verify, I have it, I don't have it, I need time, I'm ready, I do, Yes is this who is this, move to the next question, One, Two, Three, Four, Five, 1,2,3,4,5",
+    "short_stage_speechModel": "phone_call",
+    "short_stage_speechTimeout_secs": 3,
+    "short_stage_hints": "Yes, No, Hello, Yeah, Sure, Go ahead, Move to the next one, That sounds good, Yes this is she, Yes this is her, Yes I do, No I don't, I understand, I agree, That\u2019s correct, Okay, Alright, Definitely, Absolutely, Of course, Sure thing, Fine, No problem, Yes I can, Yes I will, No I won\u2019t, Not at the moment, I can do that, I cannot do that, I\u2019m interested, I\u2019m not interested, That works for me, That doesn\u2019t work for me, I need more information, I\u2019m available, I\u2019m not available, Yes I have, No I haven\u2019t, Yes I am, No I am not, I can verify, I cannot verify, I have it, I don't have it, I need time, I'm ready, I do, Yes is this who is this, move to the next question,One, Two, Three, Four, Five, 1,2,3,4,5",
+    "short_stage_enhanced_speechModel": true,
+    "audio_recording_after_60sec_mark": "https://pranaymanocha.github.io/PennMed-CNA+PCT/silent_audio.mp3",
+    "just_checking_in": "https://pranaymanocha.github.io/PennMed-CNA+PCT_final/repeatCheckingIn.mp3",
+    "havent_heard_response_yet": "https://pranaymanocha.github.io/penn-med-advisor-pos-calls-female-Jul22/node126.mp3",
+    "busy_call_back": "168",
+    "call_forwarding_stages": [],
+    "call_forwarding_phonenumber": "+14083075453",
+    "call_hangup_stages": [29, 6, 168],
+    "JOB_ID": ["84"]
+  },
+  "FAQintentData": [
+    { "id": 1, "description": "What is the interview process?", "target": 31 },
+    {
+      "id": 2,
+      "description": "What are the benefits?",
+      "target": 32
+    },
+    { "id": 3, "description": "What is the career path?", "target": 33 },
+    {
+      "id": 4,
+      "description": "Can I reschedule my call for X time",
+      "target": 168
+    },
+    {
+      "id": 5,
+      "description": "I've some questions OR I wanna ask questions or similar",
+      "target": 169
+    },
+    {
+      "id": 6,
+      "description": "can I speak with a human OR I want to speak to a human or similar",
+      "target": 170
+    },
+    {
+      "id": 7,
+      "description": "Not any of the above, transfer to the supervisor",
+      "target": 1
+    }
+  ],
+  "DynamicintentData": []
+}
