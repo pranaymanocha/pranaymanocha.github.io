@@ -1077,7 +1077,7 @@
     "voicemail_node": "0",
     "supervisor_node": "1",
     "next_stage_mapping": {"16": 17, "28":29},
-    "base_audio_recordings_hosted": "https://pranaymanocha.github.io/patient_escort",
+    "base_audio_recordings_hosted": "https://pranaymanocha.github.io/patient_escort_2",
     "audio_extension": "mp3",
     "audio_files_naming_base": "node",
     "too_many_repeats_node": 3,
